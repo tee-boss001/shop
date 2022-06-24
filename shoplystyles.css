@@ -1,0 +1,110 @@
+#shop{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#fol{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: -5px;
+    left: 1250px;
+    border: 1px solid mediumaquamarine;
+    box-sizing: border-box;
+    width: 100px;
+    border-radius: 10px;
+    padding-left: 20px;
+    background-color: mediumaquamarine;
+    cursor: pointer;
+}
+#fol:hover{
+    background-color: antiquewhite;
+    color: blue;
+}
+#search{
+    border-radius: 30px;
+    box-sizing: content-box;
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+    font-style: italic;
+    background-color: #ddd;
+}
+button{
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border-radius: 40px;
+    position: absolute;
+    top: 68px;
+    left: 780px;
+    background-color: blue;
+}
+button:hover{
+    background-color: aquamarine;
+}
+footer{
+    background-color: lightgrey;
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+nav{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    border: 1px solid black;
+    box-sizing: content-box;
+    width: 250px;
+    border-radius: 35px;
+    background-color: black;
+}
+a:hover{
+    color: blue;
+    background-color: aquamarine;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    color: cornflowerblue;
+    border: 1px solid burlywood;
+    box-sizing: content-box;
+    border-radius: 35px;
+    padding-left: 20px;
+    width: 250px;
+    background-color: burlywood;
+}
+#des{
+    position: absolute;
+    left: 570px;
+    top: -5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: crimson;
+}
+#writeup{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-weight: bold;
+}
+#add{
+    box-sizing: border-box;
+    width: fit-content;
+    height: 50px;
+    border-radius: 35px;
+    background-color: orange;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+#add:hover{
+    background-color: darkorange;
+}
+div{
+    border: 1px solid black;
+    box-sizing: content-box;
+    width: fit-content;
+    padding: 30px;
+    height: 350px;
+}
